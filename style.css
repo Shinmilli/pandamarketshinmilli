@@ -42,7 +42,7 @@ body {
   font-size: 26px;
   font-weight: 700;
   text-decoration: none;
-  width: auto;
+  width: 140px;
 }
 
 #login {
@@ -54,6 +54,7 @@ body {
   font-size: 16px;
   display: flex;
   align-items: center;
+  width: 45px;
 }
 
 .nav img {
@@ -320,7 +321,7 @@ a:hover {
 
 /* Media Query for 1920px and smaller screens */
 @media (max-width: 1920px) {
-  wrap {
+  .wrap {
     font-size: 30%; /* Decrease font size slightly */
   }
 
